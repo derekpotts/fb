@@ -1,0 +1,122 @@
+.menu
+{
+	margin-top: -8px;
+	margin-left: -8px;
+	margin-right: -8px;
+
+	padding: 8px;
+
+	background-color: gray;
+}
+.menu > *
+{
+	margin-right: 4px;
+}
+
+.scoreboard,
+.card_w,
+.score_entry_w
+{
+	margin-top: 1rem;
+}
+.score_entry_w .tac
+{
+	margin-top: 0.5rem;
+}
+
+.scoreboard th
+{
+	font-weight: 600;
+}
+.scoreboard tr
+{
+	height: 24px;
+}
+.scoreboard th,
+.scoreboard td
+{
+	padding-left: 4px;
+	padding-right: 4px;
+	vertical-align: middle;
+}
+.scoreboard tr td:nth-child(1)
+{
+	text-align: center;
+}
+.scoreboard tr td:nth-child(2)
+{
+	text-align: right;
+}
+.scoreboard tr td:nth-child(1),
+.scoreboard tr td:nth-child(2)
+{
+	min-width: 4rem;
+	border: 1px solid gray;
+}
+.scoreboard tr.current td:first-child
+{
+	background-color: red;
+	color: white;
+}
+.scoreboard .Wt-progressbar
+{
+	background-color: unset;
+	border: none;
+	/* border-left: 1px solid #8f8f8f; */
+	/* border-right: 1px solid #8f8f8f; */
+	height: 8px;
+	width: 250px;
+}
+.scoreboard .Wt-progressbar .Wt-pgb-label
+{
+	display: none;
+}
+
+.scoreboard .Wt-progressbar .Wt-pgb-bar
+{
+	background-color: #8f8f8f;
+}
+.scoreboard .highscore.Wt-progressbar .Wt-pgb-bar
+{
+	background-color: black;
+}
+
+/* this section is for the finish line */
+.scoreboard .progressbar
+{
+	padding-right: 0;
+}
+.scoreboard .finishline
+{
+	padding-left: 3px;
+	padding-right: 3px;
+	/* background: repeating-conic-gradient(black 0% 25%, transparent 0% 50%) 0% / 6px 6px; */
+	background-image: repeating-conic-gradient(black 0% 25%, transparent 0% 50%);
+	background-size: 4px 4px;
+	background-position: 2px 0;
+}
+
+.card_w
+{
+	display: inline-flex;
+	margin-left: 40px;
+	justify-content: center;
+	align-items: center;
+	border: 2px solid black;
+	border-radius: 8px;
+	width: 80px;
+	height: 120px;
+	text-align: center;
+}
+.card_w .f75 { font-size: 75%; }
+.card_w .f150 { font-size: 150%; }
+.card_w .f200 { font-size: 200%; }
+
+.score_entry_w .entry
+{
+	width: 100px;
+}
+.nodice button
+{
+	color: red;
+}
